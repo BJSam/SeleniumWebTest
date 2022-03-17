@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Conformation message for registration of user::sam and pass::samis :::Thank you, sam, for registering and welcome to the Web Tours family. We hope we can meet all your current and future travel needs. If you have any questions, feel free to ask our support staff. Click below when you're ready to plan your dream trip...]]>
+    </line>
+    <line>
+      <![CDATA[Conformation message for registration of user::joe and pass::joe1is :::Thank you, joe, for registering and welcome to the Web Tours family. We hope we can meet all your current and future travel needs. If you have any questions, feel free to ask our support staff. Click below when you're ready to plan your dream trip...]]>
+    </line>
+    <line>
+      <![CDATA[Conformation message for registration of user::mark and pass::mark11is :::Thank you, mark, for registering and welcome to the Web Tours family. We hope we can meet all your current and future travel needs. If you have any questions, feel free to ask our support staff. Click below when you're ready to plan your dream trip...]]>
+    </line>
+    <line>
+      <![CDATA[Conformation message for registration of user::joseph and pass::jsp1122is :::Thank you, joseph, for registering and welcome to the Web Tours family. We hope we can meet all your current and future travel needs. If you have any questions, feel free to ask our support staff. Click below when you're ready to plan your dream trip...]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-03-18T01:23:01 IST" name="Default suite" finished-at="2022-03-18T01:23:07 IST" duration-ms="5963">
+    <groups>
+    </groups>
+    <test started-at="2022-03-18T01:23:01 IST" name="Default test" finished-at="2022-03-18T01:23:07 IST" duration-ms="5963">
+      <class name="pageTests.MainTests">
+        <test-method is-config="true" signature="setUpForTest()[pri:0, instance:pageTests.MainTests@25fb8912]" started-at="2022-03-18T01:22:57 IST" name="setUpForTest" finished-at="2022-03-18T01:23:01 IST" duration-ms="3927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForTest -->
+        <test-method signature="userRegistrationTest([Ljava.lang.Object;)[pri:0, instance:pageTests.MainTests@25fb8912]" started-at="2022-03-18T01:23:02 IST" name="userRegistrationTest" data-provider="usersData" finished-at="2022-03-18T01:23:03 IST" duration-ms="1388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1b6924cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Conformation message for registration of user::sam and pass::samis :::Thank you, sam, for registering and welcome to the Web Tours family. We hope we can meet all your current and future travel needs. If you have any questions, feel free to ask our support staff. Click below when you're ready to plan your dream trip...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="userRegistrationTest([Ljava.lang.Object;)[pri:0, instance:pageTests.MainTests@25fb8912]" started-at="2022-03-18T01:23:03 IST" name="userRegistrationTest" data-provider="usersData" finished-at="2022-03-18T01:23:05 IST" duration-ms="1326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@77ab22be]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Conformation message for registration of user::joe and pass::joe1is :::Thank you, joe, for registering and welcome to the Web Tours family. We hope we can meet all your current and future travel needs. If you have any questions, feel free to ask our support staff. Click below when you're ready to plan your dream trip...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="userRegistrationTest([Ljava.lang.Object;)[pri:0, instance:pageTests.MainTests@25fb8912]" started-at="2022-03-18T01:23:05 IST" name="userRegistrationTest" data-provider="usersData" finished-at="2022-03-18T01:23:06 IST" duration-ms="1299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@59fbb34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Conformation message for registration of user::mark and pass::mark11is :::Thank you, mark, for registering and welcome to the Web Tours family. We hope we can meet all your current and future travel needs. If you have any questions, feel free to ask our support staff. Click below when you're ready to plan your dream trip...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="userRegistrationTest([Ljava.lang.Object;)[pri:0, instance:pageTests.MainTests@25fb8912]" started-at="2022-03-18T01:23:06 IST" name="userRegistrationTest" data-provider="usersData" finished-at="2022-03-18T01:23:07 IST" duration-ms="1352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3a8d467e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Conformation message for registration of user::joseph and pass::jsp1122is :::Thank you, joseph, for registering and welcome to the Web Tours family. We hope we can meet all your current and future travel needs. If you have any questions, feel free to ask our support staff. Click below when you're ready to plan your dream trip...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:pageTests.MainTests@25fb8912]" started-at="2022-03-18T01:23:07 IST" name="CleanUp" finished-at="2022-03-18T01:23:08 IST" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUp -->
+      </class> <!-- pageTests.MainTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
